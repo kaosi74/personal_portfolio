@@ -27,7 +27,7 @@ export default function TopNavbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-orange-50 text-foreground sticky top-0 w-full z-50 shadow-md">
+    <header className="bg-orange-50 text-foreground sticky top-0 w-full z-1000 shadow-md">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
